@@ -1,74 +1,83 @@
 {
-  "users": [
+  "patients": [
     {
       "id": 1,
-      "first_name": "Justina",
-      "last_name": "Ginglell",
-      "email": "jginglell0@networkadvertising.org",
-      "gender": "Female"
+      "name": "Jonh",
+      "email": "john@gmail.com",
+      "age": 21,
+      "phone": "+12343",
+      "Medical History": [
+        {
+          "condition": "HIV",
+          "diagnosis": "1-1-2015",
+          "treatment": [
+            "ARVs",
+            "Regular Exercises"
+          ]
+        },
+        {
+          "condition": "Diabetes",
+          "diagnosis": "2-5-2016",
+          "treatment": "insulin"
+        }
+      ],
+      "appointments": [
+        {
+          "id": 21,
+          "date": "2-7-2023",
+          "time": "8.40am",
+          "doctor": "Dr.Evans",
+          "Hospital": "Karen, Nairobi"
+        },
+        {
+          "id": 34,
+          "date": "4-8-2023",
+          "time": "10.00am",
+          "doctor": "Will",
+          "Hospital": "Karen, Nairobi"
+        }
+      ]
     },
     {
       "id": 2,
-      "first_name": "Marion",
-      "last_name": "Jenman",
-      "email": "mjenman1@surveymonkey.com",
-      "gender": "Male"
-    },
-    {
-      "id": 3,
-      "first_name": "Alfy",
-      "last_name": "Begin",
-      "email": "abegin2@list-manage.com",
-      "gender": "Female"
-    },
-    {
-      "id": 4,
-      "first_name": "Karney",
-      "last_name": "Zanussii",
-      "email": "kzanussii3@hao123.com",
-      "gender": "Male"
-    },
-    {
-      "id": 5,
-      "first_name": "Reid",
-      "last_name": "Schapero",
-      "email": "rschapero4@timesonline.co.uk",
-      "gender": "Male"
-    },
-    {
-      "id": 6,
-      "first_name": "Dorine",
-      "last_name": "Braybrookes",
-      "email": "dbraybrookes5@gov.uk",
-      "gender": "Female"
-    },
-    {
-      "id": 7,
-      "first_name": "Sarena",
-      "last_name": "Frape",
-      "email": "sfrape6@alexa.com",
-      "gender": "Female"
-    },
-    {
-      "id": 8,
-      "first_name": "Malva",
-      "last_name": "Pierse",
-      "email": "mpierse7@usda.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 9,
-      "first_name": "Rania",
-      "last_name": "Dablin",
-      "email": "rdablin8@state.gov",
-      "gender": "Female"
-    },
-    {
-      "id": 10,
-      "first_name": "Ingrim",
-      "last_name": "Offen",
-      "email": "ioffen9@slideshare.net",
-      "gender": "Male"
+      "name": "James",
+      "email": "james@gmail.com",
+      "age": 34,
+      "phone": "+2541898",
+      "Medical History": [
+        {
+          "condition": "Allergies",
+          "diagnosis": "4-5-2018",
+          "treatment": [
+            "Avoid allergens",
+            "Zyrtec"
+          ]
+        },
+        {
+          "condition": "asthma",
+          "diagnosis": "10-12-2002",
+          "treatment": [
+            "Inhaler",
+            "Avoid allergens"
+          ]
+        }
+      ],
+      "appointments": [
+        {
+          "id": 102,
+          "date": "3-8-2023",
+          "time": "10.30",
+          "doctor": "Dr.Kim",
+          "Hospital": "Nairobi Hospital"
+        },
+        {
+          "id": 34,
+          "date": "4-8-2023",
+          "time": "10.00am",
+          "doctor": "Justin",
+          "Hospital": "Meru General"
+        }
+      ]
     }
   ]
 }
